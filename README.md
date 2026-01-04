@@ -136,7 +136,7 @@ WHERE listed_in LIKE '%Documentaries';
 
 **Objective:** Retrieve all movies classified as documentaries.
 
-### 11. Find All Content Without a Director
+### 9. Find All Content Without a Director
 
 ```sql
 SELECT * 
@@ -146,7 +146,7 @@ WHERE director IS NULL;
 
 **Objective:** List content that does not have a director.
 
-### 9. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
+### 10. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
 
 ```sql
 SELECT * 
